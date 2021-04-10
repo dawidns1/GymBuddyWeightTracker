@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:icon="@drawable/ic_hexagon_quad_empty"
+    android:title="dropdownMenu"
+    app:showAsAction="ifRoom">
+
+    <menu>
+        <item
+            android:id="@+id/setGoal"
+            android:title="@string/setGoal"/>
+<!--        <item-->
+<!--            android:id="@+id/deleteGoal"-->
+<!--            android:title="@string/deleteGoal"/>-->
+        <item
+            android:id="@+id/settings"
+            android:title="@string/settings"/>
+        <item
+            android:id="@+id/save"
+            android:title="@string/save"/>
+        <item
+            android:id="@+id/load"
+            android:title="@string/load"/>
+        <item
+            android:id="@+id/delete"
+            android:title="@string/deleteAll"/>
+        <item
+            android:id="@+id/units"
+            android:title="@string/units"/>
+
+    </menu>
+</item>
+</menu>

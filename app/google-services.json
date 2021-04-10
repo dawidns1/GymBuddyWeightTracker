@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "758776298834",
+    "project_id": "gb-weight-tracker",
+    "storage_bucket": "gb-weight-tracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758776298834:android:0da6faf431a0e061560e8b",
+        "android_client_info": {
+          "package_name": "com.dawpie.gbweighttracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "758776298834-h4cm6aril0hm4vej09i72q80j5808i7c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPuPv45rjB1Om2cAAxpir39__Zah5k8io"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "758776298834-h4cm6aril0hm4vej09i72q80j5808i7c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
