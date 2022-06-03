@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/weight"
+        android:icon="@drawable/ic_weight"
+        android:id="@+id/weightFragment"/>
+
+    <item android:title=""
+        android:id="@+id/placeholder"/>
+
+    <item android:title="@string/measurements"
+        android:icon="@drawable/ic_measurements"
+        android:id="@+id/measurementsFragment"/>
+</menu>

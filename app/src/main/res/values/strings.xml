@@ -9,8 +9,8 @@
     <string name="fileNotFound">File not found</string>
     <string name="checkLocationName">Check file location and name and try again</string>
     <string name="noEntriesToLoad">No entries to load</string>
-    <string name="fileLocation">Loading info</string>
-    <string name="fileLocationInfo">Loading data will overwrite existing entries. Make sure the file is in Documents directory and copy file\'s name</string>
+    <string name="overwrite">Loading info</string>
+    <string name="overwriteInfo">Loading data will overwrite existing entries. Make sure the file is in Documents directory and copy file\'s name</string>
     <string name="fileName">File name</string>
     <string name="kgs" translatable="false">" kg"</string>
     <string name="lbs" translatable="false">" lb"</string>
@@ -38,11 +38,11 @@
     <string name="drawHorizontalGrid">Draw horizontal grid lines</string>
     <string name="drawHighlight">Draw highligh indicators</string>
     <string name="gbWeightTracker" translatable="false">GB weight tracker</string>
-    <string name="weight">Weight:</string>
-    <string name="note">Note:</string>
-    <string name="when">When:</string>
+    <string name="weight">Weight</string>
+    <string name="note">Note</string>
+    <string name="when">When</string>
     <string name="add">Add</string>
-    <string name="date">Date:</string>
+    <string name="date">Date</string>
     <string name="delete">Delete</string>
     <string name="goal">goal</string>
     <string name="startingDate">Starting date:</string>
@@ -65,5 +65,34 @@
     <string name="days">days</string>
     <string name="day">day</string>
     <string name="optional">optional</string>
+    <string name="edit">Edit</string>
+    <string name="sureDeleteThisBodyPart">Are you sure you want do delete this body part?</string>
+    <string name="measurements">Measurements</string>
+    <string name="name">Name</string>
+    <string name="addNewBodyPart">Add new body part</string>
+    <string name="newMeasurement">"New measurement - "</string>
+    <string name="newName">New name</string>
+    <string name="editBodyPart">Edit body part</string>
+    <string name="sureDeleteThisMeasurement">Are you sure you want to delete this measurement</string>
+    <string name="measurement">measurement</string>
+    <string name="errorValue">Error - insert measurement value</string>
+    <string name="errorBodyPart">Error - insert body part name</string>
+    <string name="noDataToSave">No data to save</string>
+    <string name="average">average</string>
+    <string name="perWeek">per week</string>
+    <string name="noBodyPartsToLoad">No body parts to load</string>
+    <string name="skip">skip</string>
+    <string name="deleteAllThisDay">Delete this day</string>
+    <string name="longClickToAddBodyPart">Long click the button to add body part first</string>
+    <string name="editMeasurement">"Edit measurement - "</string>
+    <string name="signIn">Sign in</string>
+    <string name="signOut">Sign out</string>
+    <string name="signedInAs">Signed in as</string>
+    <string name="signedOut">Signed out</string>
+    <string name="errorSigningIn">Error signing in</string>
+    <string name="connectToGoogleFit">Connect to Google Fit</string>
+    <string name="connectedToGoogleFit">Connected to Google Fit</string>
+    <string name="addedToGoogleFit">Added to Google Fit</string>
+    <string name="problemAddingToGoogleFit">There was a problem adding to Google Fit</string>
 
 </resources>

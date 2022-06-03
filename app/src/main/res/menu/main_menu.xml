@@ -30,6 +30,13 @@
             android:id="@+id/units"
             android:title="@string/units"/>
 
+        <item
+            android:id="@+id/googleFit"
+            android:title="@string/connectToGoogleFit"/>
+
+        <item
+            android:id="@+id/auth"
+            android:title="@string/signIn" />
     </menu>
 </item>
 </menu>

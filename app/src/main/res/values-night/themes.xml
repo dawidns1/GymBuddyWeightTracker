@@ -60,10 +60,10 @@
     <style name="eFABStyle" parent="Widget.MaterialComponents.ExtendedFloatingActionButton">
         <item name="strokeColor">@color/lime_500</item>
         <item name="strokeWidth">2dp</item>
-        <item name="backgroundTint">#267FC116</item>
+        <item name="backgroundTint">#212121</item>
         <item name="android:textColor">@color/grey_200</item>
         <item name="rippleColor">@color/lime_500</item>
-        <item name="iconTint">@color/grey_200</item>
+        <item name="iconTint">@color/white</item>
     </style>
 
     <style name="textInputStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
@@ -76,6 +76,20 @@
         <item name="boxCornerRadiusTopStart">10dp</item>
         <item name="boxStrokeWidth">1dp</item>
         <item name="boxStrokeWidthFocused">2.5dp</item>
+    </style>
+
+    <style name="shadowBlack">
+        <item name="android:shadowColor">@color/black</item>
+        <item name="android:shadowDx">-4</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="shadowBlackAlpha">
+        <item name="android:shadowColor">#33000000</item>
+        <item name="android:shadowDx">-4</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">1</item>
     </style>
 
 </resources>

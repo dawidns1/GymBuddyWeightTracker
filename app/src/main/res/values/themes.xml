@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="Theme.GymBuddyWeightTracker" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.GymBuddyWeightTracker" parent="Theme.MaterialComponents">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/lime_500</item>
         <item name="colorPrimaryVariant">@color/lime_700</item>
@@ -38,12 +38,9 @@
         <item name="android:textColorPrimary">@color/white</item>
         <item name="colorControlNormal">@color/grey_500</item>
         <item name="colorControlActivated">@color/lime_500</item>
-        <item name="android:buttonBarNegativeButtonStyle" tools:targetApi="lollipop">
-            @style/ActionButtonStyle
-        </item>
-        <item name="android:buttonBarPositiveButtonStyle" tools:targetApi="lollipop">
-            @style/ActionButtonStyle
-        </item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/ActionButtonStyle</item>
+        <item name="android:buttonBarPositiveButtonStyle" tools:targetApi="lollipop">@style/ActionButtonStyle</item>
+        <item name="android:buttonBarNeutralButtonStyle" tools:targetApi="lollipop">@style/ActionButtonStyle</item>
         <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
         <item name="android:windowExitAnimation">@android:anim/fade_out</item>
         <item name="android:windowBackground">@drawable/alert_background</item>
@@ -62,15 +59,25 @@
     <style name="eFABStyle" parent="Widget.MaterialComponents.ExtendedFloatingActionButton">
         <item name="strokeColor">@color/lime_500</item>
         <item name="strokeWidth">2dp</item>
-        <item name="backgroundTint">#267FC116</item>
+        <item name="backgroundTint">#212121</item>
         <item name="android:textColor">@color/grey_200</item>
         <item name="rippleColor">@color/lime_500</item>
-        <item name="iconTint">@color/grey_200</item>
+        <item name="iconTint">@color/white</item>
+    </style>
+
+    <style name="FABStyle" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="strokeColor">@color/lime_500</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="backgroundTint">#212121</item>
+        <item name="android:textColor">@color/grey_200</item>
+        <item name="rippleColor">@color/lime_500</item>
+        <item name="iconTint">@color/white</item>
     </style>
 
     <style name="textInputStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="endIconTint">@color/grey_500</item>
         <item name="boxStrokeColor">@drawable/text_input_layout_color</item>
-        <item name="android:textColor">@drawable/btn_text_color</item>
+        <item name="android:textColor">@color/white</item>
         <item name="helperTextTextColor">@color/grey_500</item>
         <item name="boxCornerRadiusBottomEnd">10dp</item>
         <item name="boxCornerRadiusBottomStart">10dp</item>
@@ -78,6 +85,22 @@
         <item name="boxCornerRadiusTopStart">10dp</item>
         <item name="boxStrokeWidth">1dp</item>
         <item name="boxStrokeWidthFocused">2.5dp</item>
+        <item name="hintTextColor">@color/grey_200</item>
+        <item name="android:textColorHint">@color/grey_200</item>
+    </style>
+
+    <style name="shadowBlack">
+        <item name="android:shadowColor">@color/black</item>
+        <item name="android:shadowDx">-4</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="shadowBlackAlpha">
+        <item name="android:shadowColor">#33000000</item>
+        <item name="android:shadowDx">-4</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">1</item>
     </style>
 
 </resources>
